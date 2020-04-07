@@ -1,0 +1,47 @@
+body{
+    background-color: #FFFFFF;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #cff1ef;
+}
+
+.form{ 
+    background-color: #fbcffc;
+    width: 56%;
+    margin: 20px 20%;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+.button{
+    background-color: #cff1ef;
+    padding: 8px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid white;
+}
+input{
+    padding: 4px;
+    border-radius: 4px;
+    margin-left: 6px;
+    outline: none;
+    border: 1px solid white;
+}
+label{
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+    text-decoration: underline rebeccapurple;
+}
+div{
+    margin-top: 6px;
+}
+
+.oculto{
+    display: none;
+}
