@@ -33,10 +33,11 @@ input{
 }
 label{
     font-size: 20px;
+    
 }
 p{
-    font-size: 18px;
-    text-decoration: underline rebeccapurple;
+    font-size: 20px;
+    
 }
 div{
     margin-top: 6px;

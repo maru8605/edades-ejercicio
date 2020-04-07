@@ -56,7 +56,7 @@ document.querySelector('#siguiente-paso').onclick = function(event) {
     $div.className = 'integrante';
   
     const $label = document.createElement('label');
-    $label.textContent = 'Edad del integrante #: ' + (indice + 1);
+    $label.textContent = 'Edad del integrante # ' + (indice + 1);
     const $input = document.createElement('input');
     $input.type = 'number';
   
@@ -127,5 +127,5 @@ function obtenerPromedio(numeros){
     for (let i=0;i<numeros.length; i++){
         acumulador += numeros[i];
     }
-    return (acumulador/numeros.length).toFixed(2);
+    return Math.floor(acumulador/numeros.length);
 }
